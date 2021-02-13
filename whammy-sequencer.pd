@@ -1,0 +1,12 @@
+#N canvas 517 179 899 614 10;
+#X msg 233 98 0;
+#X msg 273 98 2;
+#X msg 313 98 4;
+#X msg 353 98 5;
+#X obj 237 181 * 2;
+#X obj 228 255 print;
+#X connect 0 0 4 0;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
