@@ -1,9 +1,9 @@
 #N canvas -1920 -202 1920 1036 10;
 #X obj 259 112 metro;
-#X obj 259 91 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 259 91 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 259 673 5 0 0 0 - - -;
-#X obj 259 716 ctlout;
+#X obj 259 756 ctlout;
 #X msg 275 698 11;
 #X msg 306 698 1;
 #X obj 259 133 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
@@ -197,7 +197,7 @@
 #X obj 749 565 f;
 #X obj 773 326 vradio 15 1 0 12 empty empty empty 0 -8 0 10 -262144
 -1 -1 11;
-#N canvas -776 -64 450 300 12tone 1;
+#N canvas -776 -64 450 300 12tone 0;
 #X floatatom 25 81 5 0 0 0 - - -;
 #X obj 25 37 * -1;
 #X obj 25 59 + 11;
@@ -220,7 +220,7 @@
 #X restore 773 514 pd 12tone;
 #X floatatom 773 536 5 0 0 0 - - -;
 #X msg 286 91 130;
-#N canvas -863 135 450 300 19tone 1;
+#N canvas -863 135 450 300 19tone 0;
 #X floatatom 25 81 5 0 0 0 - - -;
 #X obj 25 37 * -1;
 #X obj 25 59 + 11;
